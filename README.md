@@ -1,12 +1,12 @@
 # 📊 Interactive Dataset Visualizer
 
-A powerful and easy-to-use **Streamlit** application that lets you upload your own CSV files and generate insightful, customizable visualizations. Perfect for quick data analysis, presentations, or exploratory data science work.
+A powerful and easy-to-use **Streamlit** application that lets you upload your own CSV, Excel and Stata files and generate insightful, customizable visualizations. Perfect for quick data analysis, presentations, or exploratory data science work.
 
 ---
 
 ## 🚀 Features
 
-- Upload and preview your CSV data instantly
+- Upload and preview your CSV, Excel or Stata data instantly
 - Choose from the following chart types:
   - Line Plot
   - Bar Plot
@@ -90,7 +90,7 @@ Pull requests, issues, and feature suggestions are welcome!
 
 ## 👤 Author
 
-Developed by **Okal Mary**
+Developed by **Okalmary254**
 
 * GitHub: [@okalmary254](https://github.com/okalmary254)
 * X(Twitter): [Jean Marie](https://x.com/jean__marie_)
