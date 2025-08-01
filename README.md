@@ -90,7 +90,7 @@ Pull requests, issues, and feature suggestions are welcome!
 
 ## 👤 Author
 
-Developed by **\[Your Name]**
+Developed by **\Okal Mary**
 
 * GitHub: [@okalmary254](https://github.com/okalmary254)
 * X(Twitter): [Jean Marie](https://x.com/jean__marie_)
