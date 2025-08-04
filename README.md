@@ -45,13 +45,6 @@ A powerful and easy-to-use **Streamlit** application that lets you upload your o
    pip install -r requirements.txt
    ```
 
-   > ```
-   > streamlit
-   > pandas
-   > matplotlib
-   > seaborn
-   > ```
-
 3. **Start the Streamlit App**
 
    ```bash
