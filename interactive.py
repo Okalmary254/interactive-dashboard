@@ -16,7 +16,7 @@ Upload a **CSV**, **Excel (.xlsx)**, or **Stata (.dta)** file to:
 - Export cleaned dataset and charts
 """)
 
-uploaded_file = st.file_uploader("Upload your dataset", type=["csv", "xlsx", "dta"])
+uploaded_file = st.file_uploader("Upload your dataset", type=["csv", "xlsx", "xls", "dta"])
 
 def load_data(file):
     try:
@@ -25,7 +25,11 @@ def load_data(file):
         elif file.name.endswith(".xlsx"):
             xls = pd.ExcelFile(file)
             sheet = st.selectbox("Select Excel sheet", xls.sheet_names)
-            return pd.read_excel(xls, sheet_name=sheet)
+            return pd.read_excel(xls, sheet_name=sheet, engine="openpyxl")
+        elif file.name.endswith(".xls"):
+            xls = pd.ExcelFile(file, engine="xlrd") 
+            sheet = st.selectbox("Select Excel sheet", xls.sheet_names)
+            return pd.read_excel(xls, sheet_name=sheet, engine="xlrd")
         elif file.name.endswith(".dta"):
             return pd.read_stata(file)
         else:
