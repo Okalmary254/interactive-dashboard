@@ -45,8 +45,6 @@ A powerful and easy-to-use **Streamlit** application that lets you upload your o
    pip install -r requirements.txt
    ```
 
-   > `requirements.txt` example:
-   >
    > ```
    > streamlit
    > pandas
@@ -57,7 +55,7 @@ A powerful and easy-to-use **Streamlit** application that lets you upload your o
 3. **Start the Streamlit App**
 
    ```bash
-   streamlit run app.py
+   streamlit run interactive-dashboard.py
    ```
 
 4. **Upload a CSV and Visualize!**
